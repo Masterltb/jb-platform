@@ -1,0 +1,147 @@
+// Production PostgreSQL Schema for JaeBinPlatform (Docker / K8s / Cloud SQL)
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String             @id @default(uuid())
+  email        String             @unique
+  username     String             @unique
+  passwordHash String
+  gold         BigInt             @default(500000)
+  diamonds     Int                @default(1500)
+  energy       Int                @default(5)
+  maxEnergy    Int                @default(5)
+  totalCp      BigInt             @default(0)
+  cards        CharacterCard[]
+  equipment    EquipmentItem[]
+  afkSession   AfkSession?
+  transactions TransactionAudit[]
+  createdAt    DateTime           @default(now())
+  updatedAt    DateTime           @updatedAt
+
+  @@index([email])
+  @@index([username])
+}
+
+model CharacterCard {
+  id             String          @id @default(uuid())
+  userId         String
+  user           User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  templateId     String
+  name           String
+  role           String
+  position       String
+  rank           String
+  stars          Int             @default(1)
+  ascensionTier  Int             @default(1)
+  moons          Int             @default(0)
+  suns           Int             @default(0)
+  tierRealm      String          @default("Star")
+  isActiveSquad  Boolean         @default(true)
+  level          Int             @default(1)
+  exp            BigInt          @default(0)
+  currentHp      Int
+  maxHp          Int
+  currentShield  Int             @default(0)
+  atk            Int
+  def            Int
+  critRate       Float           @default(0.05)
+  critDamage     Float           @default(0.5)
+  styleBonus     Int             @default(10)
+  isAwakened     Boolean         @default(false)
+  avatarImage    String?
+  avatarIcon     String?
+  avatarBg       String?
+  signatureSkill String
+  equippedItems  EquipmentItem[]
+  createdAt      DateTime        @default(now())
+
+  @@index([userId])
+  @@index([rank])
+}
+
+model EquipmentItem {
+  id              String         @id @default(uuid())
+  userId          String
+  user            User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  characterCardId String?
+  characterCard   CharacterCard? @relation(fields: [characterCardId], references: [id], onDelete: SetNull)
+  name            String
+  slot            String
+  rank            String
+  serverLimit     String?
+  editionNumber   Int?
+  setName         String?
+  enhanceLevel    Int            @default(0)
+  level           Int            @default(1)
+  maxLevel        Int            @default(50)
+  stats           String
+  exclusivePerk   String?
+  image           String?
+  colorHex        String         @default("#3b82f6")
+  createdAt       DateTime       @default(now())
+
+  @@index([userId])
+  @@index([characterCardId])
+  @@index([slot])
+  @@index([rank])
+}
+
+model BossState {
+  id           String   @id @default(uuid())
+  code         String   @unique
+  name         String
+  title        String
+  level        Int
+  rebornTier   String
+  maxHp        Int
+  currentHp    Int
+  maxBreak     Int
+  currentBreak Int
+  def          Int
+  atk          Int
+  isStaggered  Boolean  @default(false)
+  phase        Int      @default(1)
+  image        String?
+  drops        String
+  updatedAt    DateTime @updatedAt
+}
+
+model AfkSession {
+  id                String   @id @default(uuid())
+  userId            String   @unique
+  user              User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lastClaimedAt     DateTime @default(now())
+  rateGoldPerSec    Int      @default(35)
+  rateExpPerSec     Int      @default(15)
+  rateDiamondChance Float    @default(0.05)
+}
+
+model GachaJackpotPool {
+  id          String   @id @default(uuid())
+  goldPool    BigInt   @default(15480000)
+  diamondPool Int      @default(68500)
+  lastWinner  String?
+  updatedAt   DateTime @updatedAt
+}
+
+model TransactionAudit {
+  id             String   @id @default(uuid())
+  idempotencyKey String   @unique
+  userId         String
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  actionType     String
+  status         String
+  details        String
+  createdAt      DateTime @default(now())
+
+  @@index([userId])
+  @@index([idempotencyKey])
+}
