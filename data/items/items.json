@@ -1,0 +1,415 @@
+{
+  "character_cards": [
+    {
+      "id": "card_jaebin_legendary_01",
+      "name": "JaeBin (Bá Chủ Phố Đêm)",
+      "role": "Leader / Burst DPS",
+      "position": "Midline",
+      "rank": "Legendary",
+      "level": 45,
+      "max_level": 60,
+      "base_stats": {
+        "hp": 9200,
+        "atk": 1850,
+        "def": 980,
+        "crit_rate": 0.18,
+        "crit_damage": 1.65,
+        "style_bonus": 50
+      },
+      "signature_skill": {
+        "name": "Bá Chủ Màn Đêm",
+        "type": "Ultimate",
+        "energy_cost": 3,
+        "description": "Triệu hồi siêu xe lướt quét qua bàn cờ, gây 800% ATK và kích hoạt Time Slow toàn sàn đấu."
+      },
+      "equipped_items": {
+        "weapon": "wpn_bida_titan_legendary_01",
+        "jacket": "jkt_bomber_cyber_epic_01",
+        "pants": "pnt_cargo_street_rare_01",
+        "shoes": "shs_sneaker_glow_epic_01",
+        "accessory": "acc_led_glasses_rare_01",
+        "mount": "mnt_sh_titan_legendary_01"
+      },
+      "total_combat_power": 142600,
+      "description": "Thủ lĩnh băng Anhem JaeBin. Phong cách ăn chơi điệu nghệ, đòn đánh vũ bão bất khả chiến bại."
+    },
+    {
+      "id": "card_longbida_epic_01",
+      "name": "Long Bida (Đại Ca Bàn Số 9)",
+      "role": "Vanguard / Tanker",
+      "position": "Frontline",
+      "rank": "Epic",
+      "level": 40,
+      "max_level": 50,
+      "base_stats": {
+        "hp": 14500,
+        "atk": 1250,
+        "def": 1400,
+        "crit_rate": 0.10,
+        "crit_damage": 1.50,
+        "style_bonus": 35
+      },
+      "signature_skill": {
+        "name": "Thế Đỡ Cơ Bida Titan",
+        "type": "Defense",
+        "energy_cost": 1,
+        "description": "Dựng cơ bida chắn đòn, tạo lá chắn giáp 2,500 HP bảo vệ 2 đồng đội bên cạnh và phản lại 30% sát thương."
+      },
+      "equipped_items": {
+        "weapon": "wpn_tuyp_neon_rare_01",
+        "jacket": "jkt_bomber_cyber_epic_01",
+        "pants": "pnt_cargo_street_rare_01",
+        "shoes": "shs_sneaker_classic_fine_01",
+        "accessory": "acc_chain_gold_fine_01",
+        "mount": "mnt_caocao_stunt_rare_01"
+      },
+      "total_combat_power": 105400,
+      "description": "Bức tường thép của đội hình. Bất kỳ đòn sát thương hiểm độc nào của Boss đều bị anh chặn đứng."
+    },
+    {
+      "id": "card_hungpodo_rare_01",
+      "name": "Hùng Pô Độ (Quái Xế Càn Quét)",
+      "role": "Vanguard / CC Initiator",
+      "position": "Frontline",
+      "rank": "Rare",
+      "level": 38,
+      "max_level": 40,
+      "base_stats": {
+        "hp": 12200,
+        "atk": 1150,
+        "def": 1100,
+        "crit_rate": 0.12,
+        "crit_damage": 1.50,
+        "style_bonus": 40
+      },
+      "signature_skill": {
+        "name": "Cú Bốc Đầu Sóng Thần",
+        "type": "Skill",
+        "energy_cost": 2,
+        "description": "Nẹp pô ròn rã lao thẳng vào Boss, làm choáng 1.5 giây và làm vỡ 40% thanh Giáp Break của Boss."
+      },
+      "equipped_items": {
+        "weapon": "wpn_tuyp_neon_rare_01",
+        "jacket": "jkt_windbreaker_fine_01",
+        "pants": "pnt_cargo_street_rare_01",
+        "shoes": "shs_sneaker_glow_epic_01",
+        "accessory": "acc_mask_ninja_common_01",
+        "mount": "mnt_caocao_stunt_rare_01"
+      },
+      "total_combat_power": 88700,
+      "description": "Chuyên gia mở màn giao tranh. Âm thanh nẹt pô titan khiến kẻ địch hoảng sợ."
+    },
+    {
+      "id": "card_linhneon_rare_01",
+      "name": "Linh Neon (Nữ Quái Xế Phố Cổ)",
+      "role": "Assassin / Crit DPS",
+      "position": "Midline",
+      "rank": "Rare",
+      "level": 36,
+      "max_level": 40,
+      "base_stats": {
+        "hp": 8600,
+        "atk": 1720,
+        "def": 680,
+        "crit_rate": 0.35,
+        "crit_damage": 1.95,
+        "style_bonus": 45
+      },
+      "signature_skill": {
+        "name": "Vệt Bánh Xe Ám Sát",
+        "type": "Skill",
+        "energy_cost": 1,
+        "description": "Lướt vòng ra sau lưng Boss, chém 4 nhát liên hoàn gây 480% ATK, 100% nổ chí mạng nếu Boss đang bị choáng."
+      },
+      "equipped_items": {
+        "weapon": "wpn_dao_neon_fine_01",
+        "jacket": "jkt_windbreaker_fine_01",
+        "pants": "pnt_jean_street_common_01",
+        "shoes": "shs_sneaker_glow_epic_01",
+        "accessory": "acc_led_glasses_rare_01",
+        "mount": "mnt_scooter_cyber_fine_01"
+      },
+      "total_combat_power": 92300,
+      "description": "Nhanh như chớp, sát thương chí mạng cực khủng, đòn kết liễu gọn gàng."
+    },
+    {
+      "id": "card_tuancyber_epic_01",
+      "name": "Tuấn Cyber (Hacker Đèn Đường)",
+      "role": "Tactician / Debuffer",
+      "position": "Midline",
+      "rank": "Epic",
+      "level": 40,
+      "max_level": 50,
+      "base_stats": {
+        "hp": 9800,
+        "atk": 1450,
+        "def": 820,
+        "crit_rate": 0.16,
+        "crit_damage": 1.60,
+        "style_bonus": 55
+      },
+      "signature_skill": {
+        "name": "Quá Tải Lưới Điện Neon",
+        "type": "Skill",
+        "energy_cost": 2,
+        "description": "Hack hệ thống đèn đường tạo dòng điện phóng sét giật Boss, khiến Boss nhận thêm 35% sát thương từ mọi thẻ bài trong 2 lượt."
+      },
+      "equipped_items": {
+        "weapon": "wpn_tuyp_neon_rare_01",
+        "jacket": "jkt_bomber_cyber_epic_01",
+        "pants": "pnt_cargo_street_rare_01",
+        "shoes": "shs_sneaker_glow_epic_01",
+        "accessory": "acc_led_glasses_rare_01",
+        "mount": "mnt_scooter_cyber_fine_01"
+      },
+      "total_combat_power": 102500,
+      "description": "Bộ não chiến thuật của băng nhóm. Kiểm soát sàn đấu bằng công nghệ cao."
+    },
+    {
+      "id": "card_maidaquang_legendary_01",
+      "name": "Mai Dạ Quang (Tiểu Thư Băng Đảng)",
+      "role": "Style Amplifier / Healer",
+      "position": "Backline",
+      "rank": "Legendary",
+      "level": 44,
+      "max_level": 60,
+      "base_stats": {
+        "hp": 11500,
+        "atk": 1320,
+        "def": 950,
+        "crit_rate": 0.20,
+        "crit_damage": 1.60,
+        "style_bonus": 90
+      },
+      "signature_skill": {
+        "name": "Vũ Điệu Ánh Sáng Hologram",
+        "type": "Ultimate",
+        "energy_cost": 2,
+        "description": "Hồi 3,500 HP cho toàn bộ 6 thẻ bài, hồi 2 Năng Lượng Phố và lập tức cộng ngay +250 Điểm Style Rank!"
+      },
+      "equipped_items": {
+        "weapon": "wpn_bida_titan_legendary_01",
+        "jacket": "jkt_bomber_cyber_epic_01",
+        "pants": "pnt_cargo_street_rare_01",
+        "shoes": "shs_sneaker_glow_epic_01",
+        "accessory": "acc_led_glasses_rare_01",
+        "mount": "mnt_sh_titan_legendary_01"
+      },
+      "total_combat_power": 138900,
+      "description": "Nguồn cảm hứng bất tận của cả đội. Đẩy thanh Style chạm mốc SSS trong chớp mắt."
+    }
+  ],
+  "team_synergy": {
+    "name": "Đội Hình Lục Bá Phố Đêm (6-Card Street Gang)",
+    "active_count": 6,
+    "total_team_cp": 670400,
+    "synergy_buffs": [
+      {
+        "threshold": 3,
+        "buff": "Tăng +12% ATK và +15% Tốc độ tích lũy Style Meter."
+      },
+      {
+        "threshold": 6,
+        "buff": "Mở khóa Kỹ Năng Hợp Kích 6 Thẻ (All-Out Resonance Attack): Khi đạt Style Rank SSS, kích hoạt đòn đánh hợp lực quét sạch Boss."
+      }
+    ]
+  },
+  "equipment_items_by_rank": {
+    "Mythic": [
+      {
+        "id": "wpn_katana_neon_mythic_01",
+        "name": "Thần Kiếm Neon Phân Tách Không Gian",
+        "slot": "Weapon",
+        "rank": "Mythic",
+        "level": 20,
+        "max_level": 70,
+        "stats": { "atk": 1500, "crit_rate": 0.25, "crit_damage": 0.40, "style_bonus": 80 },
+        "exclusive_perk": { "name": "Nhát Chém Không Gian", "description": "Bỏ qua 100% Giáp của mục tiêu và cho phép thẻ đánh 2 lần/lượt." },
+        "color_hex": "#EF4444"
+      },
+      {
+        "id": "mnt_hoverbike_cyber_mythic_01",
+        "name": "Chiến Mã Phản Trọng Lực Cyberpunk",
+        "slot": "Mount",
+        "rank": "Mythic",
+        "level": 20,
+        "max_level": 70,
+        "stats": { "hp": 4500, "def": 400, "starting_energy": 2, "style_bonus": 100 },
+        "exclusive_perk": { "name": "Quá Tải Lượng Tử", "description": "Vào trận với Style Rank S ngay lập tức." },
+        "color_hex": "#EF4444"
+      }
+    ],
+    "Legendary": [
+      {
+        "id": "wpn_bida_titan_legendary_01",
+        "name": "Gậy Bida Phản Quang Titan",
+        "slot": "Weapon",
+        "rank": "Legendary",
+        "level": 15,
+        "max_level": 60,
+        "stats": { "atk": 850, "crit_rate": 0.15, "style_bonus": 45 },
+        "exclusive_perk": { "name": "Cơ Thủ Phố Đi Bộ", "description": "Mỗi cú vung đòn thứ 3 tạo bi neon dội tường nảy sát thương 200%." },
+        "color_hex": "#F59E0B"
+      },
+      {
+        "id": "mnt_sh_titan_legendary_01",
+        "name": "Siêu Xe SH Độ Pô Titan",
+        "slot": "Mount",
+        "rank": "Legendary",
+        "level": 15,
+        "max_level": 60,
+        "stats": { "hp": 2800, "def": 220, "starting_energy": 1, "style_bonus": 60 },
+        "exclusive_perk": { "name": "Nẹt Pô Chấn Động", "description": "Đầu trận làm choáng Boss 1 lượt." },
+        "color_hex": "#F59E0B"
+      }
+    ],
+    "Epic": [
+      {
+        "id": "jkt_bomber_cyber_epic_01",
+        "name": "Áo Khoác Bomber Neon Phố Đêm",
+        "slot": "Jacket",
+        "rank": "Epic",
+        "level": 12,
+        "max_level": 50,
+        "stats": { "hp": 2200, "def": 180, "block_bonus": 120 },
+        "color_hex": "#A855F7"
+      },
+      {
+        "id": "shs_sneaker_glow_epic_01",
+        "name": "Sneaker Dạ Quang Đế Khí",
+        "slot": "Shoes",
+        "rank": "Epic",
+        "level": 12,
+        "max_level": 50,
+        "stats": { "hp": 1100, "dodge_rate": 0.15, "speed": 25 },
+        "color_hex": "#A855F7"
+      }
+    ],
+    "Rare": [
+      {
+        "id": "wpn_tuyp_neon_rare_01",
+        "name": "Ống Tuýp Sắt Dạ Quang",
+        "slot": "Weapon",
+        "rank": "Rare",
+        "level": 10,
+        "max_level": 40,
+        "stats": { "atk": 420, "crit_rate": 0.08, "style_bonus": 20 },
+        "color_hex": "#3B82F6"
+      },
+      {
+        "id": "pnt_cargo_street_rare_01",
+        "name": "Quần Thụng Cargo Túi Hộp",
+        "slot": "Pants",
+        "rank": "Rare",
+        "level": 10,
+        "max_level": 40,
+        "stats": { "hp": 1400, "def": 110 },
+        "color_hex": "#3B82F6"
+      },
+      {
+        "id": "acc_led_glasses_rare_01",
+        "name": "Kính Râm LED Phong Cách",
+        "slot": "Accessory",
+        "rank": "Rare",
+        "level": 10,
+        "max_level": 40,
+        "stats": { "crit_damage": 0.20, "style_bonus": 25 },
+        "color_hex": "#3B82F6"
+      },
+      {
+        "id": "mnt_caocao_stunt_rare_01",
+        "name": "Xe Cào Cào Biểu Diễn",
+        "slot": "Mount",
+        "rank": "Rare",
+        "level": 10,
+        "max_level": 40,
+        "stats": { "hp": 1600, "def": 95, "style_bonus": 30 },
+        "color_hex": "#3B82F6"
+      }
+    ],
+    "Fine": [
+      {
+        "id": "wpn_dao_neon_fine_01",
+        "name": "Dao Găm Xoay Phản Quang",
+        "slot": "Weapon",
+        "rank": "Fine",
+        "level": 8,
+        "max_level": 30,
+        "stats": { "atk": 220, "crit_rate": 0.05 },
+        "color_hex": "#10B981"
+      },
+      {
+        "id": "jkt_windbreaker_fine_01",
+        "name": "Áo Gió Phản Quang Thể Thao",
+        "slot": "Jacket",
+        "rank": "Fine",
+        "level": 8,
+        "max_level": 30,
+        "stats": { "hp": 850, "def": 65 },
+        "color_hex": "#10B981"
+      },
+      {
+        "id": "shs_sneaker_classic_fine_01",
+        "name": "Giày Vải Bạt Dạo Phố",
+        "slot": "Shoes",
+        "rank": "Fine",
+        "level": 8,
+        "max_level": 30,
+        "stats": { "hp": 550, "dodge_rate": 0.06 },
+        "color_hex": "#10B981"
+      },
+      {
+        "id": "acc_chain_gold_fine_01",
+        "name": "Dây Chuyền Bạc Đường Phố",
+        "slot": "Accessory",
+        "rank": "Fine",
+        "level": 8,
+        "max_level": 30,
+        "stats": { "style_bonus": 15 },
+        "color_hex": "#10B981"
+      },
+      {
+        "id": "mnt_scooter_cyber_fine_01",
+        "name": "Xe Tay Ga Đèn LED",
+        "slot": "Mount",
+        "rank": "Fine",
+        "level": 8,
+        "max_level": 30,
+        "stats": { "hp": 900, "def": 50 },
+        "color_hex": "#10B981"
+      }
+    ],
+    "Common": [
+      {
+        "id": "wpn_wood_bat_common_01",
+        "name": "Gậy Gỗ Tập Luyện",
+        "slot": "Weapon",
+        "rank": "Common",
+        "level": 5,
+        "max_level": 20,
+        "stats": { "atk": 90 },
+        "color_hex": "#94A3B8"
+      },
+      {
+        "id": "pnt_jean_street_common_01",
+        "name": "Quần Jean Đen Bụi Phố",
+        "slot": "Pants",
+        "rank": "Common",
+        "level": 5,
+        "max_level": 20,
+        "stats": { "hp": 400, "def": 30 },
+        "color_hex": "#94A3B8"
+      },
+      {
+        "id": "acc_mask_ninja_common_01",
+        "name": "Khẩu Trang Đen Đường Phố",
+        "slot": "Accessory",
+        "rank": "Common",
+        "level": 5,
+        "max_level": 20,
+        "stats": { "def": 15 },
+        "color_hex": "#94A3B8"
+      }
+    ]
+  }
+}

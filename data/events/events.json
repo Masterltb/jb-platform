@@ -1,0 +1,26 @@
+[
+  {
+    "event_id": "evt_grand_open_2026",
+    "title": "Lễ Hội Khởi Động: Ăn Chơi Điệu Nghệ (Web Card Launch)",
+    "description": "Nhân đôi (x2) EXP, Vàng và Tỉ lệ rơi Mảnh Thẻ Bài Legendary khi tham gia Thám Hiểm Đánh Boss.",
+    "start_time": "2026-10-20T00:00:00Z",
+    "end_time": "2026-10-27T23:59:59Z",
+    "type": "BUFF_DROP_RATE",
+    "multiplier": 2.0
+  },
+  {
+    "event_id": "evt_giftcode_tan_thu",
+    "title": "Mã Quà Tân Thủ: Bóc Pack Khởi Nghiệp",
+    "description": "Nhập mã JAEBIN999 trên Web Portal để nhận 500 Kim Cương, 10x Vé Bóc Thẻ và Gậy Bida Titan Legendary.",
+    "code": "JAEBIN999",
+    "start_time": "2026-10-20T00:00:00Z",
+    "end_time": "2026-12-31T23:59:59Z",
+    "max_uses_per_user": 1,
+    "rewards": {
+      "diamonds": 500,
+      "gold": 25000,
+      "card_booster_tickets": 10,
+      "items": ["wpn_bida_titan_legendary_01"]
+    }
+  }
+]
